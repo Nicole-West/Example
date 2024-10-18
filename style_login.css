@@ -1,0 +1,131 @@
+.auth-layout__cell {
+    display: table-cell;
+    vertical-align: middle;
+    padding: 30px 12px;
+}
+
+.auth-form-title {
+    font-size: 24px;
+    font-weight: 500;
+    text-align: center;
+    margin-bottom: 24px
+}
+
+.auth-form {
+    position: relative;
+    max-width: 420px;
+    margin: 0 auto;
+    padding: 26px;
+    border-radius: 12px;
+    background-color: #fff;
+    box-shadow: 0 12px 15px 0 rgba(0,0,0,.06),0 17px 50px 0 rgba(0,0,0,.02)
+}
+
+.auth-form-back {
+    position: absolute;
+    top: 23px;
+    left: 26px;
+    z-index: 30;
+    font-size: 18px;
+    color: #818181;
+    width: 10px;
+    height: 10px;
+}
+
+form {
+    padding-top: 124px;
+    padding-bottom: 150px;
+}
+
+.tabs__content_show {
+    min-height: 434px;
+    display: block;
+}
+
+.form__field {
+    margin-bottom: 15px;
+    position: relative
+}
+
+.form__input-wrap {
+    position: relative;
+}
+
+.form__input {
+    margin: 0;
+    font-size: 14px;
+    font-family: inherit;
+    line-height: 20px;
+    border-radius: 3px;
+    color: #212529;
+    border: 1px solid #dcdcdc;
+    max-width: 100%;
+
+    padding: 5px 12px;
+    width: 100%;
+    height: 32px;
+}
+
+.form__footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 15px;
+    border-top: 1px solid #22016d;
+}
+
+input {
+    background: transparent;
+    box-shadow: none;
+    border: 0;
+    border-radius: 0;
+    margin: 0;
+    padding: 0;
+    height: inherit;
+    line-height: inherit;
+    color: #393939;
+    font-size: 14px;
+    position: relative;
+    box-sizing: border-box;
+}
+
+.button {
+    display: inline-block;
+    min-height: 16px;
+    height: 32px;
+    margin: 0;
+    padding: 0 16px;
+    color: rgba(33,37,41,.8);
+    line-height: 32px;
+    font-size: 14px;
+    font-family: inherit;
+    font-weight: 600;
+    font-style: normal;
+    text-transform: none;
+    text-align: center;
+    border: none;
+    border-radius: 4px;
+    background-color: #f0ece6;
+    cursor: pointer;
+    transition: opacity .1s ease,color .1s ease,background .1s ease;
+}
+
+.button:hover {
+    background: hsla(240, 73%, 35%, 0.9);
+}
+
+.button_primary {
+    background-color: #22016d;
+    color: #fff;
+}
+
+.button_md {
+    height: 28px;
+    line-height: 28px;
+    padding: 0 12px;
+}
+
+.button_block {
+    display: block;
+    width: 100%;
+}
