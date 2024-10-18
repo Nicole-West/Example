@@ -20,13 +20,13 @@ if(!isset($_SESSION['click'])){
     //письмо
     $mail = new PHPMailer\PHPMailer\PHPMailer(true);
     
-    $mail -> Host = "smtp.yandex.ru";
-    $mail->Username = "fun-an4stasia";
-    $mail->Password = "pgaixcchymhmrxdj";
-    $mail->SMTPSecure = "ssl";
-    $mail->Port = 465;
+    $mail -> Host = "";
+    $mail->Username = "mail";
+    $mail->Password = "";
+    $mail->SMTPSecure = "";
+    $mail->Port = ;
     
-    $mail -> setFrom ('fun-an4stasia@yandex.ru', 'Почти настоящая компания');
+    $mail -> setFrom ('mail@mail.ru', 'Почти настоящая компания');
     $mail -> addAddress($_SESSION["email"], $_SESSION['name']);
     $mail -> Subject = 'Проверка отправки сообщения';
     
