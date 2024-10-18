@@ -51,12 +51,12 @@ session_start();
                         require "../w/vendor/autoload.php";                        
                         //письмо
                         $mail = new PHPMailer\PHPMailer\PHPMailer(true);                        
-                        $mail -> Host = "smtp.yandex.ru";                        
-                        $mail->Username = "fun-an4stasia";
-                        $mail->Password = "pgaixcchymhmrxdj";                        
-                        $mail->SMTPSecure = "ssl";
-                        $mail->Port = 465;                        
-                        $mail -> setFrom ('fun-an4stasia@yandex.ru', 'Почти настоящая компания');                        
+                        $mail -> Host = "";                        
+                        $mail->Username = "";
+                        $mail->Password = "";                        
+                        $mail->SMTPSecure = "";
+                        $mail->Port = ;                        
+                        $mail -> setFrom ('mail@mail.ru', 'Почти настоящая компания');                        
                         $mail -> addAddress($email, $_POST['first_name']);
                         $mail -> Subject = "Регистрация на сайте";                        
                         $mail->Body = "Здравствуйте, $first_name $last_name!                        
